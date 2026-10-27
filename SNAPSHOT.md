@@ -21,6 +21,8 @@ one `ProbNNN_<name>_{prompt.txt, ref.sv, test.sv}` set per problem (plus `_ifc.t
 
 Running the tests needs **iverilog v12**.
 
+**Removed from this snapshot** (build/run tooling, not data; blocked by a corporate pre-clone scan): `configure`, `configure.ac`, `Makefile.in`, `scripts/sv-generate`, `scripts/sv-iv-analyze`, `scripts/echo-progress`, `v1/Dockerfile`. Get them from upstream if you need to run the official harness.
+
 ---
 
 Snapshot kept for benchmark work; see [chihyu-wang-tsmc/code-benchmarks](https://github.com/chihyu-wang-tsmc/code-benchmarks) for the full benchmark index. Licensing follows the upstream source.
